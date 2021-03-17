@@ -16,4 +16,6 @@ override_dh_auto_build:
 
 override_dh_auto_install:
 	dh_installdirs
-	install burpsuite.jar $(CURDIR)/debian/burpsuite/usr/bin/burpsuite
+	install #software name
+	$(CURDIR)/debian/#software name
+	/usr/bin/burpsuite
